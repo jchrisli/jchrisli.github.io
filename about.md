@@ -3,8 +3,4 @@ title: about
 layout: page
 ---
 
-follow 
-
-> [@o_lll](https://twitter.com/#!/o_lll)
-
-to reach me
+[豆瓣](http://www.douban.com/people/mr12/)
