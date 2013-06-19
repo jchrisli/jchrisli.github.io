@@ -1,11 +1,10 @@
-	----
-	-layout: post
-	-title:  回国
-	-date: 2013-06-18
-	-category: essay
-	-tags:  回国
-	----
-
+----
+layout: post
+title:  回国
+date: 2013-06-18
+category: essay
+tags:  回国
+----
 
 五月底回国，假期三周。
 
