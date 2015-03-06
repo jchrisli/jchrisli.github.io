@@ -1,4 +1,4 @@
 jchrisli.github.io
 ==================
 
-Final try in using Jekyll
+My blog, purely static, not generated with a generator but hand-coded :)
