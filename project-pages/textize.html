@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="ChrisL">
+    <meta name="author" content="ChrisL">
+    <link rel="icon" href="">
+
+    <title>Textize</title>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+	<input type="file" id="input" onchange="imagesSelected(this.files)" />
+	<p>
+	  <img id="display" style="float: left;" />
+	  <canvas id="hidden-canvas" style="display:block;"></canvas>
+	  <canvas id="display-canvas"></canvas>
+	</p>
+   
+    <script src="textize.js"></script>
+  </body>
+</html>
