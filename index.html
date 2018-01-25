@@ -31,7 +31,6 @@
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="research.html">Research</a></li>
             <li role="presentation"><a href="hobby.html">Hobby Projects</a></li>
           </ul>
         </nav>
@@ -40,7 +39,7 @@
 
       <div class="row marketing">
         <div class="col-lg-6">
-          <p>I am a human-computer interaction researcher and software engineer currently based in Calgary, Canada. I devise and build interfaces for people to better make use of computing technology. </p>
+          <p>I am a 2nd year PhD student at . I devise and build interfaces for people to better make use of computing technology. </p>
 		  <p>I obtained a M.Sc in computer science from University of Calgary, under the supervision of Dr. Ehud Sharlin and Dr. Saul Greenberg. Prior to that, I studied Electronic Engineering at Southeast University, Nanjing, China.</p>
 		  <br>
 		  <p>Check out my CV with a focus on <a href="file/cv-research.pdf">research</a> or <a href="file/cv-industry.pdf">development</a>.<br>
@@ -49,22 +48,59 @@
 
         <div class="col-lg-6">
           <p><img id="banner" src="image/art-and-science.png"><p>
-          <p>
-            <a href="https://twitter.com/J_Chris_Li"><img class="contact-icon" src="image/icon-twitter.png"></a>
-            <a href="https://ca.linkedin.com/pub/jiannan-li/54/487/165/"><img class="contact-icon" src="image/icon-linkedin.png"></a>
-            <a href=""><img class="contact-icon" src="image/icon-wordpress.png"></a>
-            <a href="https://github.com/jchrisli"><img class="contact-icon" src="image/icon-github.png"></a>
-          </p>
         </div>
       </div>
 
+      <div class="row marketing">
+          <div class="col-lg-12">
+            <h4>Interactive Two-Sided Transparent Displays for Collaboration</h4>
+            <div class="col-lg-3">
+             <a href="http://grouplab.cpsc.ucalgary.ca/grouplab/uploads/Publications/Publications/2014-TransparentDisplay.DIS.mp4"><img class="project-thumbnail" src="image/ttd-small.png"></a>
+            </div>
+            <div class="col-lg-9">
+             <p>Interactive Two-Sided Transparent Displays for supporting face-to-face collaboration. The display can present independent content on both sides and augments user actions.</p>
+             <p>Paper published at <a href="http://grouplab.cpsc.ucalgary.ca/grouplab/uploads/Publications/Publications/2014-TransparentDisplay.DIS.pdf">DIS 2014</a>. <a href="http://grouplab.cpsc.ucalgary.ca/grouplab/uploads/Publications/Publications/2014-TransparentDisplay.DIS.mp4">Video</a>.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row marketing">
+            <div class="col-lg-12">
+              <h4>Transparency Degradation and User Action Augmentation on Collaborative Transparent Displays</h4>
+              <div class="col-lg-3">
+               <a href="http://grouplab.cpsc.ucalgary.ca/grouplab/uploads/Publications/Publications/2014-TransparentStudy.Report2014-1065-16.mp4"><img class="project-thumbnail" src="image/transparency-small.png"></a>
+              </div>
+              <div class="col-lg-9">
+                 <p>Through empirical studies, we studied the impact of transparency degradation on users' workspace awareness when using transparent displays. We also evaluated the efficacy of action augmentation techniques in compensating for awareness loss due to transparency degradation.</p>
+                 <p><a href="http://grouplab.cpsc.ucalgary.ca/grouplab/uploads/Publications/Publications/2014-TransparentStudy.Report2014-1065-16.pdf">Technical Report</a>. <a href="http://grouplab.cpsc.ucalgary.ca/grouplab/uploads/Publications/Publications/2014-TransparentStudy.Report2014-1065-16.mp4">Video</a>.</p>
+              
+              </div>
+            </div>
+        </div>
+        
+        <div class="row marketing">
+            <div class="col-lg-12">
+              <h4>iWindow: Augmented Reality for Vehicle Passengers</h4>
+              <div class="col-lg-3">
+               <a href="http://grouplab.cpsc.ucalgary.ca/grouplab/uploads/Publications/Publications/2013-iWindow-Report2013-1038-05.mp4"><img class="project-thumbnail" src="image/iwindow-small.png"></a>
+              </div>
+              <div class="col-lg-9">
+               <p>iWindow is a transparent display that augments the side window of a vehicle to provide location-based augmented reality information to passengers.</p>
+               <p>Paper published at <a href="http://grouplab.cpsc.ucalgary.ca/grouplab/uploads/Publications/Publications/2013-iWindow-CHIWIP.pdf">CHI 2013</a>. <a href="http://grouplab.cpsc.ucalgary.ca/grouplab/uploads/Publications/Publications/2013-iWindow-Report2013-1038-05.mp4">Video</a>.</p>
+              </div>
+            </div>
+        </div>
+
       <footer class="footer">
-        <p>&copy; Jiannan Li 2015</p>
+        <p id="copyright">2015</p>
       </footer>
 
     </div> <!-- /container -->
 
-    
+    <script>
+      var d = new Date(), year = d.getFullYear();
+      $('#copyright').html('&copy; Jiannan Li ' + year);
+    </script>
    
 
   </body>
