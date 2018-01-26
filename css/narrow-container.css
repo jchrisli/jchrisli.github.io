@@ -79,6 +79,7 @@ body {
 }
 
 .project-thumbnail {
+  margin: 5px;
   width: 90%;
   height: 90%; 
 }
