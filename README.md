@@ -1,4 +1,4 @@
 jchrisli.github.io
 ==================
 
-My personal page, purely static, not generated with a generator but hand-coded :)
+Personal website based on the minimal-light theme and powered by Jekyll
