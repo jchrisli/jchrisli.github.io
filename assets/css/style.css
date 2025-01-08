@@ -63,11 +63,15 @@ papertitle { font-weight: 600; font-size: 100%; }
 
 .image:before { -moz-transition: opacity 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out; -ms-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; border-radius: 0.35em; content: ''; display: block; height: 100%; left: 0; opacity: 0.5; position: absolute; top: 0; width: 100%; }
 
-.image.avatar { border-radius: 20%; }
+.image.avatar { width: 100%; }
 
 .image.avatar:before { display: none; }
 
-.image.avatar img { border-radius: 20%; width: 45%; padding: 20px; }
+.image.avatar .avatar-img { background-image: url("../../assets/img/profile-lucerne.jpg"); background-size: cover; background-position: center; transition: background-image 0.2s ease; /* Smooth transition */ border-radius: 6%; width: 70%; margin-left: auto; margin-right: auto; aspect-ratio: 4 / 5; }
+
+.image.avatar .avatar-img:hover { background-image: url("../../assets/img/profile-bonn.jpg"); }
+
+.image.avatar img { display: none; }
 
 #header .image.avatar { margin: 0 0 1em 0; width: 8.00em; }
 
