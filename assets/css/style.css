@@ -67,7 +67,7 @@ papertitle { font-weight: 600; font-size: 100%; }
 
 .image.avatar:before { display: none; }
 
-.image.avatar .avatar-img { background-image: url("../../assets/img/profile-lucerne.jpg"); background-size: cover; background-position: center; transition: background-image 0.2s ease; /* Smooth transition */ border-radius: 6%; width: 70%; margin-left: auto; margin-right: auto; aspect-ratio: 4 / 5; }
+.image.avatar .avatar-img { background-image: url("../../assets/img/profile-doha.jpg"); background-size: cover; background-position: center; transition: background-image 0.2s ease; /* Smooth transition */ border-radius: 6%; width: 70%; margin-left: auto; margin-right: auto; aspect-ratio: 4 / 5; }
 
 .image.avatar .avatar-img:hover { background-image: url("../../assets/img/profile-bonn.jpg"); }
 
