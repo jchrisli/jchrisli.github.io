@@ -11,8 +11,7 @@
 
 .social-icons a:hover { background-color: white; color: black; transform: scale(1.2); }
 
-/*
-.social-icons a:after { content: ''; display: block; margin: 0px; height: 1px; width: 0px; background: transparent; transition: width .5s ease, background-color .5s ease; } .social-icons a:hover:after { width: 100%; background: #337ab7; } */
+/* .social-icons a:after { content: ''; display: block; margin: 0px; height: 1px; width: 0px; background: transparent; transition: width .5s ease, background-color .5s ease; } .social-icons a:hover:after { width: 100%; background: #337ab7; } */
 @media (prefers-color-scheme: dark) { .social-icons a:last-child { margin-right: 0; }
   .social-icons a:hover { background-color: #20212b; color: black; transform: scale(1.2); }
   /* .social-icons a:after { content: ''; display: block; margin: 0px; height: 1px; width: 0px; background: transparent; transition: width .5s ease, background-color .5s ease; } .social-icons a:hover:after { width: 100%; background: #a0b0ff; } */ }
@@ -69,7 +68,7 @@ papertitle { font-weight: 600; font-size: 100%; }
 
 .image.avatar .avatar-img { background-image: url("../../assets/img/profile-doha.jpg"); background-size: cover; background-position: center; transition: background-image 0.2s ease; /* Smooth transition */ border-radius: 6%; width: 70%; margin-left: auto; margin-right: auto; aspect-ratio: 4 / 5; }
 
-.image.avatar .avatar-img:hover { background-image: url("../../assets/img/profile-bonn.jpg"); }
+.image.avatar .avatar-img:hover { background-image: url("../../assets/img/profile-dublin.jpg"); }
 
 .image.avatar img { display: none; }
 
